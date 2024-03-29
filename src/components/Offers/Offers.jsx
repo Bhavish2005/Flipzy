@@ -1,6 +1,7 @@
 import React from 'react'
 import './Offers.css'
 import model from '../assests/model.png'
+import hero from '../assests/hero.png'
 
 const Offers = () => {
   return (
@@ -13,7 +14,8 @@ const Offers = () => {
           <button>Check Now</button>
         </div>
         <div className="offers-right">
-          <img src={model} alt="" />
+          <img  className="model_1"src={model} alt="" />
+          <img  className="model_2"src={hero} alt="" />
         </div>
       </div>
     </div>

@@ -1,12 +1,13 @@
 .item{
-    width: 350px;
+    width: 250px;
 }
 .item p{
     margin: 6px 0px;
 }
 .item img{
-width: 225px;
-height: 270px;
+    /* image-rendering:optimizeQuality; */
+width: 200px;
+height: 250px;
 border-radius: 10px;
 }
 .item-price{
