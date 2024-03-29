@@ -8,29 +8,29 @@ let data_product=[
         id:1,
         name:"Women Full Sleeve Printed Hooded Sweatshirt",
         image:p1_img,
-        new_price:"$"+ 90.00,
-        old_price:"$"+ 110.00,
+        new_price: 90.00,
+        old_price:110.00,
     },
     {
         id:2,
         name:"Women Jogger Suit",
         image:p2_img,
-        new_price:"$"+ 150.00,
-        old_price:"$"+ 200.00,
+        new_price: 150.00,
+        old_price: 200.00,
     },
 {
         id:3,
         name:"Women Full Sleeve Black Solid Hooded Sweatshirt",
         image:p3_img,
-        new_price:"$"+ 80.00,
-        old_price:"$"+ 100.00,
+        new_price: 80.00,
+        old_price: 100.00,
 },
 {
         id:4,
         name:"Women Full Sleeve Stylish Hooded Sweatshirt",
         image:p4_img,
-        new_price:"$"+ 85.00,
-        old_price:"$"+ 105.00,
+        new_price:85.00,
+        old_price:105.00,
 }
 ] ;
 export default data_product
