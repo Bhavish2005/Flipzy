@@ -1,14 +1,14 @@
 .item{
-    width: 250px;
+    width: 225px;
 }
 .item p{
     margin: 6px 0px;
 }
 .item img{
     /* image-rendering:optimizeQuality; */
-width: 200px;
+width: 225px;
 height: 250px;
-border-radius: 10px;
+border-radius: 5px;
 }
 .item-price{
     display: flex;
@@ -26,7 +26,7 @@ border-radius: 10px;
     font-weight: 600;
     text-decoration: line-through;
 }
-.item:hover{
+.item img:hover{
     transform: scale(1.05);
     transition: .6s;
 }
