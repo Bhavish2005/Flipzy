@@ -1,14 +1,20 @@
+.shop-category{
+    background: linear-gradient(180deg,white,white,rgb(247, 194, 194),rgb(247, 194, 194),white 90%);
+}
 .shopcategory-banner{
     display: block;
-    margin: 30px auto;
-    width: 82%;
-    border-radius: 15px;
+    margin:  auto;
+    padding-top: 30px;
+    width: 78%;
+    border-radius: 20px;
 }
 .shopcategory-indexSort{
+   padding-top: 30px;
     display: flex;
     margin: 0px 170px;
     justify-content: space-between;
     align-items: center;
+   
 }
 .shopcategory-sort{
     padding: 10px 20px;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react' 
 import './Navbar.css'
-import logo from '../assests/logo.jpeg'
+import logo_big from '../assests/logo_big.png'
 import cart_icon from '../assests/cart_icon-removebg-preview.png'
 import { Link } from 'react-router-dom'
 
@@ -9,7 +9,7 @@ const Navbar=()=>{
     return(
     <div className='navbar'>
         <div className='nav-logo'>
-            <img class="logo" src={logo} alt="" />
+            <img class="logo" src={logo_big} alt="" />
             <p>Flipzy</p>
         </div>
 <ul className="nav-menu">
