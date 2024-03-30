@@ -21,6 +21,7 @@ code {
 }
 ::-webkit-scrollbar-track{
   background: rgb(233, 231, 231);
+  
   border-radius: 100vw;
   margin-block: .5em;
 }

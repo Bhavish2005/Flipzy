@@ -9,7 +9,7 @@ const Offers = () => {
       <div className="offers_child">
         <div className="offers-left">
           <h2>Exclusive</h2>
-          <h2>Offers For You</h2>
+          <h2>Offers </h2>
           <p>On Popular Products</p>
           <button>Check Now</button>
         </div>
