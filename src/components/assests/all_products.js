@@ -15,7 +15,7 @@ import p14_img from './product_26.png'
 
 let all_products=[
     {
-        id:1,
+        id:9,
         name:"Men T-shirt solid",
         category:"men",
         image:p5_img,
@@ -23,7 +23,7 @@ let all_products=[
         old_price: 110.00,
     },
     {
-        id:2,
+        id:10,
         name:"Men T-shirt solid",
         category:"men",
         image:p6_img,
@@ -31,7 +31,7 @@ let all_products=[
         old_price: 200.00,
     },
 {
-        id:3,
+        id:11,
         name:"Men T-shirt solid",
         category:"men",
         image:p7_img,
@@ -39,7 +39,7 @@ let all_products=[
         old_price: 100.00,
 },
 {
-        id:4,
+        id:12,
         name:"Men T-shirt solid",
         category:"men",
         image:p8_img,
@@ -79,7 +79,7 @@ let all_products=[
     old_price: 135.00,
 },
 {
-    id:9,
+    id:1,
     name:"Women Full Sleeve Printed Hooded Sweatshirt",
     category:"women",
     image:p1_img,
@@ -87,7 +87,7 @@ let all_products=[
     old_price: 110.00,
 },
 {
-    id:10,
+    id:2,
     name:"Women Jogger Suit",
     category:"women",
     image:p2_img,
@@ -95,7 +95,7 @@ let all_products=[
     old_price: 200.00,
 },
 {
-    id:11,
+    id:3,
     name:"Women Full Sleeve Black Solid Hooded Sweatshirt",
     category:"women",
     image:p3_img,
@@ -103,7 +103,7 @@ let all_products=[
     old_price: 100.00,
 },
 {
-    id:12,
+    id:4,
     name:"Women Full Sleeve Stylish Hooded Sweatshirt",
     category:"women",
     image:p4_img,

@@ -9,28 +9,28 @@ import p12_img from './new8.jpeg'
 
 let new_collection=[
     {
-        id:1,
+        id:9,
         name:"Men T-shirt solid",
         image:p5_img,
         new_price:90.00,
         old_price:110.00,
     },
     {
-        id:2,
+        id:10,
         name:"Men T-shirt solid",
         image:p6_img,
         new_price:150.00,
         old_price:200.00,
     },
 {
-        id:3,
+        id:11,
         name:"Men T-shirt solid",
         image:p7_img,
         new_price:80.00,
         old_price:100.00,
 },
 {
-        id:4,
+        id:12,
         name:"Men T-shirt solid",
         image:p8_img,
         new_price:85.00,
