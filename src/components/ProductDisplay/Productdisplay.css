@@ -1,8 +1,10 @@
+
 .productdisplay{
     margin-top: 50px;
     display: flex;
     margin-left:  170px;
     margin-bottom: 100px;
+    
 }
 .productdisplay-left{
    
@@ -16,10 +18,12 @@
 }
 .productdisplay-img-list img{
     height: 80px;
+    border-radius: 3px;
 }
 .productdisplay-main-img{
     width: 400px;
     height: 430px;
+    border-radius: 3px;
 }
 .productdisplay-right{
     margin: 0px 70px;
