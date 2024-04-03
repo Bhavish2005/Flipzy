@@ -1,7 +1,10 @@
 import React from 'react'
 import './Hero.css'
 import hand_icon from '../assests/hand_icon.png'
-import hero from '../assests/hero.png'
+import Slider from '../slider/slider'
+
+
+
 
 const Hero = () => {
     return (
@@ -13,13 +16,14 @@ const Hero = () => {
                     <img src={hand_icon} alt="" />
                 </div>
                 <p>Your One-Stop </p>
-                <p>Style Destination</p>
+                <p>Style Destination</p>   
                 <div className="hero-latest-btn">
                     <div>Latest Collection</div>
                     { /* <img src={} alt="" /> */}</div>
             </div>
-            <div className="hero-right">
-                <img class="model" src={hero} alt="" />
+            <div className="hero-right" >
+                <Slider/>
+                {/* <img class="model" src={hero} alt="" /> */}
             </div>
         </div>
     )

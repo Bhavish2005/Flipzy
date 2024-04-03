@@ -8,6 +8,7 @@ import Twitter_icon from '../assests/twitter_icon.png'
 const Footer = () => {
   return (
     <div className="footer">
+        
         <div className="footer-logo">
             <img src={Logo_Big} alt=""/>
             <p>Flipzy</p>
@@ -34,6 +35,7 @@ const Footer = () => {
             <hr />
             <p>Copyright @ 2024 - All Rights Reserved.</p>
         </div>
+                
     </div>
   )
 }

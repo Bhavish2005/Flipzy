@@ -5,8 +5,8 @@
     gap: 10px;
     height: 30%;
     background: linear-gradient(180deg, rgb(247, 184, 194),rgb(255, 255, 255) 60%);
-    padding-left: 2%;
-     padding-right: 2%;
+    padding-left: 7%;
+     padding-right: 7%;
 }
 .popular_child{
     overflow-x:auto;
