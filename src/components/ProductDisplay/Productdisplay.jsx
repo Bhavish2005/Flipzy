@@ -5,7 +5,7 @@ import dullstar_icon from "../assests/star_dull_icon.png";
 import { ShopContext } from "../../context/ShopContext";
 const Productdisplay = (props) => {
   const { product } = props;
-  const {addTocart}=useContext(ShopContext)
+  const {addToCart}=useContext(ShopContext)
 
   return (
     <div className="productdisplay">
@@ -53,7 +53,7 @@ const Productdisplay = (props) => {
           <div>XL</div>
           <div>XXL</div>
         </div>
-        <button onClick={()=>{addTocart(product.id)}}>Add To Cart</button>
+        <button onClick={()=>{addToCart(product.id)}}>Add To Cart</button>
         <p className="productdisplay-category">
           <span>Category : </span>
           {product.category}
