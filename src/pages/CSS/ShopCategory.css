@@ -6,7 +6,7 @@
     margin:  auto;
     padding-top: 30px;
     width: 78%;
-    border-radius: 20px;
+    
 }
 .shopcategory-indexSort{
    padding-top: 30px;
@@ -26,7 +26,7 @@
      
 }
 .shopcategory-products{
-    margin: 20px 170px ;
+    margin: 20px 150px ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
@@ -43,4 +43,15 @@
     color: #787878;
     font-size: 18px;
     font-weight: 500;
+}
+@media(max-width:800px)
+{
+    .shopcategory-banner{
+        margin-top: 25px;
+        align-items: center;
+        width: 80%;
+    }
+    .shopcategory-products{
+        margin-left: 100px;
+    }
 }

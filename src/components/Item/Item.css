@@ -31,3 +31,57 @@ border-radius: 5px;
     transform: scale(1.05);
     transition: .6s;
 }
+@media (max-width:1280px) {
+    .item{
+        width: 180px;
+        font-size: 14px;
+    }
+    .item img{
+        width: 180px;
+    }
+    .item-price-old{
+        font-size: 14px;
+    }
+}
+@media(max-width:1024px)
+{
+    .item{
+ width: 130px;
+ font-size: 14px;
+    }
+    .item img{
+        width: 120px;
+        height: 150px;
+    }
+    .item-price-old{
+        font-size: 12px;
+    }
+}
+@media(max-width:800px)
+{
+    .item{
+ width: 110px;
+ font-size: 12px;
+ 
+    }
+    .item img{
+        width: 100px;
+        height: 140px;
+    }
+    .item-price-old{
+        font-size: 12px;
+    }
+}
+@media(max-width:500px)
+{
+    .item{
+ width: 100px;
+
+    }
+    .item img{
+       
+        width: 80px;
+        height: 100px;
+    }
+    
+}
