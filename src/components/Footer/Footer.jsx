@@ -22,10 +22,10 @@ const Footer = () => {
         </ul>
         <div className="footer-social-icon">
             <div className="footer-icons-container">
-               <img src={Insta_icon} alt="" />
+              <a href="https://www.instagram.com/"><img src={Insta_icon} alt="" /></a>
             </div>
             <div className="footer-icons-container">
-                <img src={Twitter_icon} alt="" />
+                <a href="https://twitter.com/?lang=en"><img src={Twitter_icon} alt="" /></a>
             </div>
             <div className="footer-icons-container">
                 <a href="https://www.whatsapp.com/"><img src={Whatsapp_icon} alt="" /></a>
