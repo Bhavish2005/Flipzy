@@ -13,8 +13,8 @@
 
 }
 .nav-logo:hover{
-    transform: scale(1.025);
-    transition: .6s;
+    transform: scale(1.05);
+    transition: .2s ;
 }
 .logo{
     height: 50px;
@@ -124,6 +124,10 @@
     .navbar{
         padding: 12px 30px;
         }
+        
+        .nav-logo{
+            scale: 1.35;
+        }
         .nav-menu{
             gap: 25px;
             font-size: 14px;
@@ -149,13 +153,16 @@
         padding: 10px 0px;
         
     }
-    .nav_dropdown{
+    .nav-logo{
+        scale: 1.5;
+    }
+    /* .nav_dropdown{
        display: block;
        padding-top:10px;
        width: 40px;
        height: 30px;
        transition: .5s;       
-    }
+    } */
     
     .nav-menu{
         display:none;
@@ -172,10 +179,19 @@
     .nav-menu-visible{
         display:flex;
         background: transparent;
+        margin-top: 30px;
+        gap: 50px;
     }
-    .nav_dropdown.open{
+    /* .nav_dropdown.open{
         transform: scale(1.15);
-    }
+    } */
+     .nav-login-cart button{
+        scale: 1.25;
+     }
+     .nav-login-cart img{
+        scale: 1.25;
+     }
+     
 }
 @media(max-width:500px){
     .navbar{

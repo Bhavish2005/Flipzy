@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import arrowright_icon from "../assests/arrow_right.png";
+
 import arrowleft_icon from "../assests/arrow_left.png";
 import all_products from "../assests/all_products";
 import './slider.css'
@@ -26,7 +26,7 @@ const Slider = () => {
           <img className="arrow"src={arrowleft_icon} alt="" />
         </button>
       </div>
-      <div>
+      <div className="image-slider">
         <img className="sliding_image" src={image} alt="" />
         </div>
       <div className="right">
@@ -36,7 +36,7 @@ const Slider = () => {
           }}
         >
           
-          <img  className="arrow"src={arrowright_icon} alt="" />
+          <img  className="arrow-right"src={arrowleft_icon} alt="" />
         </button>
         
       </div>
