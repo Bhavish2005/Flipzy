@@ -29,5 +29,5 @@ background: #252525;}
 .popular-item{
     margin-top:5%;
     display: flex;
-    gap: 35px;
+    gap: 100px;
 }
